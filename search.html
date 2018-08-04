@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Hello, world!</title>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Dashboard</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</head>
+<body>
+
+<div class="container-fluid body-container">
+  <div class="col">
+    <div class="row header-view">Conditions</div>
+    <div class="row">
+      <div class="col-1">
+      </div>
+      <div class="col-6">
+        <form>
+          <div class="form-group">
+            <label class="font-weight-bold" for="InputStartDate">Start Date</label>
+            <div class="row">
+              <div class="col-8">
+                <input type="date" class="form-control md-6" id="InputStartDate">
+              </div>
+              <div class="col-4">
+                <input type="time" class="form-control" id="InputStartTime">
+              </div>
+
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="font-weight-bold" for="InputEndDate">End Date</label>
+            <div class="row">
+              <div class="col-8">
+                <input type="date" class="form-control" id="InputEndDate">
+              </div>
+              <div class="col-4">
+                <input type="time" class="form-control" id="InputEndTime">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="font-weight-bold" for="InputExtension">Extension</label>
+            <input type="text" class="form-control" id="InputExtension">
+          </div>
+
+          <div class="form-group">
+            <label class="font-weight-bold" for="InputDestination">Destination</label>
+            <input type="text" class="form-control" id="InputDestination">
+          </div>
+
+          <div class="form-group">
+            <label class="font-weight-bold" for="dropdownType">Type of call</label>
+            <div class="dropdown">
+              <button class="btn btn dropdown-toggle btn-drop" type="button" id="dropdownType" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Outbound
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownType">
+                <a class="dropdown-item" href="#">Outbound</a>
+                <a class="dropdown-item" href="#">Outbound 1</a>
+                <a class="dropdown-item" href="#">Outbound 2</a>
+              </div>
+            </div>
+          </div>
+
+          <button type="search" class="btn btn-drop">Search</button>
+          <button type="cancel" class="btn btn-drop">Cancel</button>
+        </form>
+      </div>
+
+    </div>
+    <div class="p-2">
+      <table class="table">
+        <thead>
+        <tr>
+          <th scope="col">No.</th>
+          <th scope="col">Call Date</th>
+          <th scope="col">Source</th>
+          <th scope="col">Destination</th>
+          <th scope="col">Bill Time</th>
+          <th scope="col">Cnum</th>
+          <th scope="col">Type of call</th>
+          <th scope="col">Record File</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>2019-08-03 09:04:01</td>
+          <td>02873028577</td>
+          <td>0916745579</td>
+          <td>00:00:00</td>
+          <td>100</td>
+          <td>Outbound</td>
+          <td>
+            <div class="row">
+              <audio controls>
+                <source src="http://71dongkhoi.esy.es/a.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <a style="align-self: center; margin-left: 10px" href="http://71dongkhoi.esy.es/a.gsm" download>
+                <label class="font-weight-bold ">Download raw file</label>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>2019-08-03 09:04:01</td>
+          <td>02873028577</td>
+          <td>0916745579</td>
+          <td>00:00:00</td>
+          <td>100</td>
+          <td>Outbound</td>
+          <td>
+            <div class="row">
+              <audio controls>
+                <source src="http://71dongkhoi.esy.es/a.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <a style="align-self: center; margin-left: 10px" href="http://71dongkhoi.esy.es/a.gsm" download>
+                <label class="font-weight-bold ">Download raw file</label>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>2019-08-03 09:04:01</td>
+          <td>02873028577</td>
+          <td>0916745579</td>
+          <td>00:00:00</td>
+          <td>100</td>
+          <td>Outbound</td>
+          <td>
+            <div class="row">
+              <audio controls>
+                <source src="http://71dongkhoi.esy.es/a.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              <a style="align-self: center; margin-left: 10px" href="http://71dongkhoi.esy.es/a.gsm" download>
+                <label class="font-weight-bold ">Download raw file</label>
+              </a>
+            </div>
+          </td>
+        </tr>
+        </tbody>
+      </table>
+      <div class="row" style="align-items: center;justify-content: center">
+        <i class="material-icons btn" style="font-size:48px">first_page</i>
+        <i class="material-icons btn" style="font-size:48px">chevron_left</i>
+
+        <button class="bg-transparent border-primary"
+                style=" width: 30px;height: 30px; border-radius: 15px; box-shadow: none; border-width: 1px; border-color: black">
+          1
+        </button>
+        <button class="bg-transparent"
+                style=" width: 30px;height: 30px; border-radius: 15px; box-shadow: none; border-width: 1px; border-color: black">
+          2
+        </button>
+        <button class="bg-transparent"
+                style=" width: 30px;height: 30px; border-radius: 15px; box-shadow: none; border-width: 1px; border-color: black">
+          3
+        </button>
+        <button class="bg-transparent"
+                style=" width: 30px;height: 30px; border-radius: 15px; box-shadow: none; border-width: 1px; border-color: black">
+          4
+        </button>
+
+        <i class="material-icons btn" style="font-size:48px">chevron_right</i>
+        <i class="material-icons btn" style="font-size:48px">last_page</i>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
